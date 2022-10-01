@@ -17,7 +17,10 @@ namespace SoftMatrix.PBIRS.ProxyHost
     public class ProxyController : ApiController
     {
 
-        const string DefaultUPN = "yonglun@msftstack.com";
+        /// <summary>
+        /// 缺省模拟的AD账号，如果在accessToken没有传入，则缺省模拟这个账号
+        /// </summary>
+        const string DefaultUPN = "bi-user01@msftstack.com";
 
 
         /// <summary>
